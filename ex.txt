@@ -1,0 +1,50 @@
+/* Foooter
+/* Footer Section */
+footer {
+    text-align: center;
+    padding: 300px 300px 80px 300px;
+
+   
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+    margin-top: 40px; /* Space before the footer */
+}
+footer .abc{
+    font-size: 2em;
+}
+
+.footer-message {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 70px; /* Space between the message and icons */
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px; /* Space between icons and copyright */
+}
+
+.footer-icons a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 3.5em;
+    transition: color 0.3s ease;
+}
+
+
+.footer-icons a:hover {
+    color: #64d9fd;
+}
+
+.copyright-section {
+    border-top: 1px solid white; /* Thin line on top */
+    padding: 50px 10px; /* Space above the copyright text */
+    color: #fff;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 30px; /* Space before the copyright section */
+} 
