@@ -16,12 +16,13 @@
 </head>
 
 <body>
-    
+
 
     <header>
         <nav class="navbar">
-            <div class="logo">//_Adithi_H <i class="fa fa-cloud" style="font-size:48px;color:rgb(255, 255, 255)"></i></div>
-            
+            <div class="logo">//_Adithi_H <i class="fa fa-cloud" style="font-size:48px;color:rgb(255, 255, 255)"></i>
+            </div>
+
             <ul>
                 <li><a href="#home">_home</a></li>
                 <li><a href="#about">_about</a></li>
@@ -34,8 +35,8 @@
     </header>
     <main>
 
-         <section id="home">
-            <span class="salutation">Hello!</span> 
+        <section id="home">
+            <span class="salutation">Hello!</span>
             <h1>I am <span class="name-highlight">Adithi H</span>.</h1>
             <p class="declaration">Enthusiastic about technology and future <br> possibilities</p>
             <p> Currently pursuing B.Tech in Computer Science and <br> Engineering at PES University, Bengaluru.</p>
@@ -43,38 +44,42 @@
             <br>
 
             <div>
-                <a href="#projects" class="button"> _my_projects</a>
+                <a href="#about" class="button"> _more_about_me</a>
             </div>
             <br>
             <br>
             <br>
 
             <div class="socials">
-                <a href="https://github.com/AdvaySanketi" target="_blank" class="social github">
+                <a href="https://github.com/a-cozzzy" target="_blank" class="social github">
                     <img src="img/github.svg" alt="GitHub Icon">
                 </a>
                 <h3><-- Github </h3>
-                        <a href="https://www.linkedin.com/in/advaysanketi/" target="_blank" class="social linkedin">
+                        <a href="https://www.linkedin.com/in/adithi-h-03841a30a/" target="_blank" class="social linkedin">
                             <img src="img/linkedin.svg" alt="LinkedIn Icon">
                         </a>
                         <h3><-- LinkedIn</h3>
             </div>
-        </section> 
-       
+        </section>
+
         <section id="about">
             <div class="about">
                 <div class="about-image">
-                    <img src="/img/sample.jpg" alt="Your Image">
+                    <img src="/img/pf.jpg" alt="Your Image">
                 </div>
                 <div class="about-text">
                     <h2 class="salutation">About Me</h2>
                     <p>
-                        I am a dedicated student at PES University, Electronic City Campus, with a strong passion for technology and development. My interests extend beyond academics to sports, particularly badminton, where I enjoy both playing and learning new techniques. I am eager to continuously expand my knowledge and skills, always seeking opportunities to grow personally and professionally.
+                        I am a dedicated student at PES University, Electronic City Campus, with a strong passion for
+                        technology and development. My interests extend beyond academics to sports, particularly
+                        badminton, where I enjoy both playing and learning new techniques. I am eager to continuously
+                        expand my knowledge and skills, always seeking opportunities to grow personally and
+                        professionally.
 
 
                     </p>
                     <br>
-                    <button class="button" src="#contact">_connect_with_me</button>
+                    <a href="#projects"><button class="button" src="#projects">_my_projects</button></a>
                 </div>
             </div>
         </section>
@@ -90,7 +95,7 @@
                         <li>CSS</li>
                         <li>TailwindCSS</li>
                         <li>Bootstrap</li>
-                        <li>Adobe XD</li>
+                        <!-- <li>Adobe XD</li> -->
                         <li>Canva</li>
                         <li>Figma</li>
                     </ul>
@@ -145,42 +150,57 @@
 
 
         <section id="projects">
+            <div class="projects"></div>
             <h2 class="salutation">My Projects</h2>
             <p>Some things I've built so far.</p>
             <div class="projects-container">
                 <!-- Repeat this block for each project -->
+
                 <div class="project-card ongoing">
                     <div class="project-content">
                         <div class="project-image">
-                            <img src="/img/sample.jpg" alt="Project Image">
-                            <div class="project-status">Ongoing</div>
-                            <!-- This should only be added if the project is ongoing -->
+                            <img src="/img/goweather.png" alt="Project Image">
                         </div>
                         <div class="project-details">
-                            <h3>Project Title</h3>
-                            <p>Project description goes here...</p>
-                            <a href="https://github.com/yourusername/yourproject" target="_blank"
+                            <h3>WeatherGo</h3>
+                            <p>A web application that provides real-time weather updates and forecasts using Golang
+                                microservice.</p>
+                            <a href="https://github.com/a-cozzzy/Weather-GO-microservice" target="_blank"
                                 class="button1">GitHub</a>
                         </div>
                     </div>
-
                 </div>
-                <!-- Repeat block ends -->
+
+
                 <div class="project-card ongoing">
                     <div class="project-content">
                         <div class="project-image">
-                            <img src="/img/sample.jpg" alt="Project Image">
-                            <div class="project-status">Ongoing</div>
-                            <!-- This should only be added if the project is ongoing -->
+                            <img src="/img/todo.png" alt="Project Image">
                         </div>
                         <div class="project-details">
-                            <h3>Project Title</h3>
-                            <p>Project description goes here...</p>
-                            <a href="https://github.com/yourusername/yourproject" target="_blank"
+                            <h3>TaskTrack</h3>
+                            <p>A dynamic to-do list application built with the MERN stack to manage tasks efficiently.
+                            </p>
+                            <a href="https://github.com/a-cozzzy/to-do-list-mern" target="_blank"
                                 class="button1">GitHub</a>
                         </div>
                     </div>
+                </div>
 
+                <div class="project-card ongoing">
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="/img/socket_prog.png" alt="Project Image">
+                        </div>
+                        <div class="project-details">
+                            <h3>Chat Room</h3>
+                            <p>A chat room application using thread socket programming with TCP in Python, featuring a
+                                user-friendly GUI built with Tkinter for real-time communication.
+                            </p>
+                            <a href="https://github.com/a-cozzzy/RealTimeChatApplication-Python_SocketProgramming" target="_blank"
+                                class="button1">GitHub</a>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -203,45 +223,74 @@
             </div>
         </section>
 
+        <!--mini projects-->
+
         <section id="mini-projects">
             <h2 class="salutation">Mini Projects</h2>
             <p>Some mini projects I've worked on.</p>
             <div class="mini-projects-container">
-                <!-- Repeat this block for each mini project -->
+                
+                
                 <div class="mini-project-card">
                     <div class="project-content">
                         <div class="project-image">
-                            <img src="/img/sample.jpg" alt="Project Image">
-                            <div class="project-status">Ongoing</div>
-                            <!-- This should only be added if the project is ongoing -->
+                            <img src="/img/simon.png" alt="Project Image">
                         </div>
                         <div class="project-details">
-                            <h3>Mini Project Title</h3>
-                            <p>Project description goes here...</p>
-                            <a href="https://github.com/yourusername/yourminiproject" target="_blank"
+                            <h3>SimonSays</h3>
+                            <p>A fun and engaging Simon game built to test memory skills.</p>
+                            <a href="https://github.com/a-cozzzy/web-dev-mini-projects/tree/main/Simon%20Game" target="_blank"
                                 class="button1">GitHub</a>
                         </div>
                     </div>
-
                 </div>
-                <!-- Repeat block ends -->
+
+
                 <div class="mini-project-card">
                     <div class="project-content">
                         <div class="project-image">
-                            <img src="/img/sample.jpg" alt="Project Image">
-                            <div class="project-status">Ongoing</div>
-                            <!-- This should only be added if the project is ongoing -->
+                            <img src="/img/tindogy.png" alt="Project Image">
                         </div>
                         <div class="project-details">
-                            <h3>Mini Project Title</h3>
-                            <p>Project description goes here...</p>
-                            <a href="https://github.com/yourusername/yourminiproject" target="_blank"
+                            <h3>TinDog</h3>
+                            <p>A playful Tinder-inspired web page for dogs, created mainly to explore Bootstrap.</p>
+                            <a href="https://github.com/a-cozzzy/web-dev-mini-projects/tree/main/TinDog" target="_blank"
                                 class="button1">GitHub</a>
                         </div>
                     </div>
-
                 </div>
-                <!-- Repeat block ends -->
+
+                
+                <div class="mini-project-card">
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="/img/drumkit.png" alt="Project Image">
+                        </div>
+                        <div class="project-details">
+                            <h3>DrumBeats</h3>
+                            <p>An interactive drum kit application played with keyboard or clicks for musical creativity.</p>
+                            <a href="https://github.com/a-cozzzy/web-dev-mini-projects/tree/main/Drum%20Kit" target="_blank"
+                                class="button1">GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="mini-project-card">
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="/img/dice.png" alt="Project Image">
+                        </div>
+                        <div class="project-details">
+                            <h3>DiceRoller</h3>
+                            <p>A simple dice game implemented to test your luck with an interactive experience.</p>
+                            <a href="https://github.com/a-cozzzy/web-dev-mini-projects/tree/main/Dicee%20Challenge" target="_blank"
+                                class="button1">GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div class="mini-project-card">
                     <div class="project-content">
                         <div class="project-image">
@@ -256,26 +305,9 @@
                                 class="button1">GitHub <i class="fab fa-github"></i></a>
                         </div>
                     </div>
-
                 </div>
-                <!-- Repeat block ends -->
-                <div class="mini-project-card">
-                    <div class="project-content">
-                        <div class="project-image">
-                            <img src="/img/sample.jpg" alt="Project Image">
-                            <div class="project-status">Ongoing</div>
-                            <!-- This should only be added if the project is ongoing -->
-                        </div>
-                        <div class="project-details">
-                            <h3>Mini Project Title</h3>
-                            <p>Project description goes here...</p>
-                            <a href="https://github.com/yourusername/yourminiproject" target="_blank"
-                                class="button1">GitHub <i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
+                
 
-                </div>
-                <!-- Repeat block ends -->
 
             </div>
         </section>
@@ -289,13 +321,13 @@
                 <p class="abc">Let's keep in touch! :D </p>
             </div>
             <div class="footer-icons">
-                <a href="https://github.com/yourusername" target="_blank">
+                <a href="https://github.com/a-cozzzy" target="_blank">
                     <i class="fab fa-github"></i> <!-- GitHub Icon -->
                 </a>
-                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                <a href="https://www.linkedin.com/in/adithi-h-03841a30a/" target="_blank">
                     <i class="fab fa-linkedin"></i> <!-- LinkedIn Icon -->
                 </a>
-                <a href="mailto:yourname@example.com">
+                <a href="mailto:adithih03@gmail.com">
                     <i class="fas fa-envelope"></i> <!-- Email Icon -->
                 </a>
             </div>
