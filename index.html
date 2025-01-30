@@ -86,7 +86,17 @@
 
         <section id="skills" class="skills">
             <h2 class="salutation">Skills/ Things I've worked with so far</h2>
-            <div class="skill-section">
+            <div class="skill-section" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+                <div class="skill-card">
+                    <h3>Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>Golang</li>
+                    </ul>
+                </div>
                 <div class="skill-card">
                     <h3>Frontend & Design</h3>
                     <ul>
@@ -95,7 +105,6 @@
                         <li>CSS</li>
                         <li>TailwindCSS</li>
                         <li>Bootstrap</li>
-                        <!-- <li>Adobe XD</li> -->
                         <li>Canva</li>
                         <li>Figma</li>
                     </ul>
@@ -103,43 +112,66 @@
                 <div class="skill-card">
                     <h3>Backend & Databases</h3>
                     <ul>
-                        <li>Node.Js</li>
-                        <li>Express.Js</li>
-                        <li>Next.Js</li>
-                        <li>MongoDB</li>
-                        <li>SQL</li>
-                        <!-- <li>Django</li> -->
-                        <li>PostgreSQL</li>
-                        <!-- <li>Google Firebase</li> -->
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Next.js</li>
                         <li>FastAPI</li>
-                        <!-- <li>AWS Services</li> -->
                     </ul>
                 </div>
+                
                 <div class="skill-card">
-                    <h3>Languages</h3>
+                    <h3>Databases</h3>
                     <ul>
-                        <li>Python</li>
-                        <li>C</li>
-                        <li>C++</li>
-                        <li>JavaScript</li>
-                        <li>GOlang</li>
-
-                        <!-- <li>Dart</li> -->
+                        <li>MongoDB</li>
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Firebase</li>
+                        <li>Neo4j</li>
+                        
                     </ul>
                 </div>
                 <div class="skill-card">
                     <h3>Deployment & Version Control</h3>
                     <ul>
-                        <!-- <li>Docker</li>
-                        <li>Heroku</li> -->
                         <li>Netlify</li>
-                        <br>
                         <li>Git</li>
                         <li>GitHub</li>
                     </ul>
                 </div>
+
+                <div class="skill-card">
+                    <h3>AI & Machine Learning</h3>
+                    <ul>
+                        <li>Pandas</li>
+                        <li>OpenCV</li>
+                        <li>PyTorch</li>
+                        <li>TensorFlow</li>
+                        <li>Sci-kit</li>
+                    </ul>
+                </div>
+                
+
+                <div class="skill-card">
+                    <h3>Cloud & DevOps</h3>
+                    <ul>
+                        <li>Docker</li>
+                        <li>AWS</li>
+                        <li>Firebase</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <h3>Others</h3>
+                    <ul>
+                        <li>Postman</li>
+                        <li>Transformers</li>
+                        <!-- <li>Ethical Hacking</li>
+                        <li>Wireshark</li> -->
+                    </ul>
+                </div>
             </div>
         </section>
+        
 
 
 
@@ -157,6 +189,21 @@
             <p>Some things I've built so far.</p>
             <div class="projects-container">
                 <!-- Repeat this block for each project -->
+                <div class="project-card">
+                    <div class="project-content">
+                        <div class="project-image">
+                            <img src="/img/ems.png" alt="Project Image" style="width: 100%; height: auto; object-fit: cover;">
+                        </div>
+                        <div class="project-details">
+                            <h3>Expense Management system</h3>
+                            <p>An Expense Management System built with <b>Next.js</b> and <b>PostgreSQL</b>, following <b>Agile methodologies</b> with user authentication. </p>
+                            <a href="https://github.com/a-cozzzy/movie-recommendation-system" target="_blank"
+                                class="button1">GitHub</a>
+                        </div>
+                    </div>
+
+                </div>
+
 
                 <div class="project-card">
                     <div class="project-content">
@@ -298,14 +345,13 @@
                 <div class="mini-project-card">
                     <div class="project-content">
                         <div class="project-image">
-                            <img src="/img/sample.jpg" alt="Project Image">
-                            <div class="project-status">Ongoing</div>
-                            <!-- This should only be added if the project is ongoing -->
+                            <img src="/img/inv.png" alt="Project Image">
+                            <!-- <div class="project-status">Ongoing</div> -->
                         </div>
                         <div class="project-details">
-                            <h3>Mini Project Title</h3>
-                            <p>Project description goes here...</p>
-                            <a href="https://github.com/yourusername/yourminiproject" target="_blank"
+                            <h3>Inventory Management System</h3>
+                            <p>An IMS allows users to add, search, update, and delete items efficiently.</p>
+                            <a href="https://github.com/a-cozzzy/inventory-management" target="_blank"
                                 class="button1">GitHub <i class="fab fa-github"></i></a>
                         </div>
                     </div>
